@@ -17,7 +17,7 @@ public class ChildProcessDemo {
             Runtime.getRuntime().exec("calc");
 
 //            Process process = Runtime.getRuntime().exec("dir");
-//
+//            如果运行win命令时，需要通过/c来转换 ps:Runtime.getRuntime().exec("cmd /c start https://github.com");
 //            InputStream inputStream = process.getInputStream();
 //            int data = 0;
 //            while ((data = inputStream.read()) > -1) {
